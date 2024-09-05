@@ -1,2 +1,2 @@
 # leetCode
-this repository contains some of the easiest solutoins for leetcode problems
+this repository contains some of the easiest solutions for leetcode problems
