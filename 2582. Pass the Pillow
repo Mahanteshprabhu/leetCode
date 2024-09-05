@@ -1,0 +1,13 @@
+class Solution {
+    public int passThePillow(int n, int time) { 
+    
+        int cycleLength = 2 * n - 2; //roundtrip
+        int positionInCycle = time % cycleLength; //effective time
+        
+        if (positionInCycle < n) {
+            return positionInCycle + 1;
+        } else {
+]            return (2 * n - 1) - positionInCycle;
+    }
+}
+    
